@@ -1,0 +1,29 @@
+body, html {
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 1rem;
+}
+
+section.main {
+  width: 100vw;
+  height: 100vh;
+}
+
+section.about {
+  width: 100vw;
+  height: 100vh;
+}
+
+section.info {
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  margin-top: 15%;
+  font-family: 'Carter One', cursive;
+}
+
+/* responsive typography  */
