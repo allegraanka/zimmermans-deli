@@ -6,32 +6,77 @@ html {
   font-size: 1rem;
 }
 
+section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 section.main {
   width: 100vw;
   height: 100vh;
+  background: url("../images/sliced-meatloaf.jpg") no-repeat center;
+  background-size: cover;
+  border-bottom: 1px solid white;
+}
+
+section.factoid {
+  width: 100vw;
+  height: 50vh;
+  background-color: #171b23;
+  border-bottom: 1px solid white;
 }
 
 section.about {
   width: 100vw;
   height: 100vh;
+  background: #171b23 url("../images/dan-kelly.jpg") no-repeat center fixed;
+  background-size: cover;
+  background-blend-mode: screen;
+  color: white;
 }
 
 section.info {
   width: 100vw;
   height: 100vh;
+  border-top: 3px solid #5579b3;
+  color: white;
+  background: #171b23 url("../images/slice-sandwich.jpg") no-repeat center fixed;
+  background-size: cover;
+  background-blend-mode: overlay;
 }
 
 h1 {
   font-family: 'Carter One', cursive;
+  color: #5579b3;
 }
 
-.header {
-  margin-top: 15%;
+.display-1 {
+  color: white;
+  opacity: 0.8;
+}
+
+.lead {
+  color: white;
 }
 
 .about-div {
-  margin: 10%;
-  padding: 1%;
+  margin: 5%;
+}
+
+.about-header {
+  color: white;
+}
+
+footer {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #171b23;
+  color: white;
+  border-top: 3px solid #5579b3;
 }
 
 /* responsive typography  */
