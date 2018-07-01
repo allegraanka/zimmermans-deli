@@ -65,7 +65,8 @@ h1 {
 }
 
 .about-header {
-  color: white;
+  color: #171b23;
+  /* opacity: 0.8; */
 }
 
 footer {
