@@ -39,12 +39,21 @@ section.about {
 section.info {
   width: 100vw;
   height: 100vh;
-  border-top: 3px solid #171b23;
+  border-top: 3px solid #5579b3;
+  color: white;
+  background: #171b23 url("../images/slice-sandwich.jpg") no-repeat center fixed;
+  background-size: cover;
+  background-blend-mode: overlay;
 }
 
 h1 {
   font-family: 'Carter One', cursive;
   color: #5579b3;
+}
+
+.display-1 {
+  color: white;
+  opacity: 0.8;
 }
 
 .lead {
