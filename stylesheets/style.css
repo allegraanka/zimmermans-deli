@@ -27,13 +27,16 @@ section.factoid {
   border-bottom: 1px solid white;
 }
 
+section.factoid p {
+  color: white;
+}
+
 section.about {
   width: 100vw;
   height: 100vh;
-  background: #171b23 url("../images/dan-kelly.jpg") no-repeat center fixed;
+  background: #5579b3 url("../images/dan-kelly.jpg") no-repeat center fixed;
   background-size: cover;
   background-blend-mode: screen;
-  color: white;
 }
 
 section.info {
@@ -58,6 +61,7 @@ h1 {
 
 .lead {
   color: white;
+  text-transform: uppercase;
 }
 
 .about-div {
