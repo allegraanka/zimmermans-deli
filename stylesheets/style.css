@@ -34,17 +34,17 @@ section.factoid p {
 section.about {
   width: 100vw;
   height: 100vh;
-  background: #5579b3 url("../images/dan-kelly.jpg") no-repeat center fixed;
+  background: #e5e5e5 url("../images/dan-kelly.jpg") no-repeat center fixed;
   background-size: cover;
-  background-blend-mode: screen;
+  background-blend-mode: multiply;
+  color: white;
 }
 
 section.info {
   width: 100vw;
   height: 100vh;
   border-top: 3px solid #5579b3;
-  color: white;
-  background: #171b23 url("../images/slice-sandwich.jpg") no-repeat center fixed;
+  background: #e5e5e5 url("../images/slice-sandwich.jpg") no-repeat center fixed;
   background-size: cover;
   background-blend-mode: overlay;
 }
@@ -69,7 +69,7 @@ h1 {
 }
 
 .about-header {
-  color: #171b23;
+  color: white;
   /* opacity: 0.8; */
 }
 
