@@ -16,11 +16,11 @@
 
   <body>
     <section class="logo">
-      <nav class="navbar">
+      <nav id="navbar" class="navbar">
         <ul class="nav justify-content-center">
-          <li class="text-center"><a class="navbar-brand" href="#">About</a></li>
+          <li class="text-center"><a class="navbar-brand" href="#linkToAbout">About</a></li>
           <li class="text-center"><a class="navbar-brand" href="#">Menus</a></li>
-          <li class="text-center"><a class="navbar-brand" href="#">Shop</a></li>
+          <li class="text-center"><a class="navbar-brand" href="#linkToShop">Shop</a></li>
         </ul>
       </nav>
       <p class="text-center tag-line"> A plant-based twist on all of your favorite deli classics. </p>
@@ -31,10 +31,12 @@
       <p class="lead text-center"> a plant-based twist on your favorite deli classics </p> -->
     </section>
 
-    <section class="factoid">
+    <a name="linkToShop"><section class="factoid"></a>
+      <h1>There's a holiday roast with your name on it.</h1>
+      <p> Email us your info & Venmo / PayPal us and we'll be in touch! </p>
     </section>
 
-    <section class="about">
+    <a name="linkToAbout"><section class="about"></a>
       <div class="about-div">
         <h1 class="text-left about-header"> About Us </h1>
         <p class="text-left"> We're the coolest motherfuckers that ever lived. <br /> And our food is awesome. </p>
@@ -43,9 +45,9 @@
       <div class="about-div">
         <h1 class="text-left about-header"> Connect With Us </h1>
         <ul class="list-unstyled list-inline text-left">
-          <li class="list-inline-item"><a href=""><img src="images/instagram-logo.svg" style="width: 45px;"></a></li>
-          <li class="list-inline-item"><a href=""><img src="images/twitter-logo.svg" style="width: 45px;"></a></li>
-          <li class="list-inline-item"><a href="mailto:zimmermansdeli@gmail.com"><img src="images/email.svg" style="width: 45px;"></a></li>
+          <li class="list-inline-item"><a href="">Twitter</a></li>
+          <li class="list-inline-item"><a href="">Instagram</a></li>
+          <li class="list-inline-item"><a href="mailto:zimmermansdeli@gmail.com">Email</a></li>
         </ul>
       </div>
     </section>
@@ -55,14 +57,17 @@
 
     <footer>
       <ul class="list-unstyled list-inline text-center">
-        <li class="list-inline-item"><a href="https://www.instagram.com/zimmermansdeli/"><img src="images/instagram-logo.svg" style="width: 35px;"></a></li>
-        <li class="list-inline-item"><a href="#"><img src="images/twitter-logo.svg" style="width: 35px;"></a></li>
-        <li class="list-inline-item"><a href="mailto:zimmermansdeli@gmail.com"><img src="images/email.svg" style="width: 35px;"></a></li>
+        <li class="list-inline-item"><a href="https://www.instagram.com/zimmermansdeli/" target="_blank"><img src="images/instagram-logo.svg" style="width: 35px;"></a></li>
+        <li class="list-inline-item"><a href="#" target="_blank"><img src="images/twitter-logo.svg" style="width: 35px;"></a></li>
+        <li class="list-inline-item"><a href="mailto:zimmermansdeli@gmail.com" target="_blank"><img src="images/email.svg" style="width: 35px;"></a></li>
       </ul>
       <p class="text-center"> &copy 2018 Zimmerman's Deli | Philadelphia, PA </p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script>
+    <script src="jquery.localscroll.js" type="text/javascript"></script>
+    <script src="jquery.scrollTo.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="javascripts/scripts.js"></script>
