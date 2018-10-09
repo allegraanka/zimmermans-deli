@@ -6,29 +6,53 @@ html {
   font-size: 1rem;
 }
 
+nav.navbar {
+  position: absolute;
+  top: 15px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline;
+}
+
+.tag-line {
+  position: absolute;
+  bottom: 15px;
+}
+
 section {
   display: flex;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+section.logo {
+  width: 100vw;
+  height: 100vh;
+  background: url("../images/logo.jpg") no-repeat center;
+  background-size: cover;
+  border-bottom: 1px solid #4685f7;
+  color: #4685f7;
 }
 
 section.main {
   width: 100vw;
   height: 100vh;
-  background: url("../images/sliced-meatloaf.jpg") no-repeat center;
+  background: url("../images/sliced-meatloaf.jpg") no-repeat center fixed;
   background-size: cover;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #4685f7;
 }
 
 section.factoid {
   width: 100vw;
-  height: 50vh;
-  background-color: #171b23;
-  border-bottom: 1px solid white;
-}
-
-section.factoid p {
-  color: white;
+  height: 75vh;
+  /* background-color: #171b23; */
+  border-bottom: 1px solid #4685f7;
 }
 
 section.about {
@@ -43,15 +67,23 @@ section.about {
 section.info {
   width: 100vw;
   height: 100vh;
-  border-top: 3px solid #5579b3;
+  border-top: 1px solid #5579b3;
   background: #e5e5e5 url("../images/slice-sandwich.jpg") no-repeat center fixed;
   background-size: cover;
   background-blend-mode: overlay;
 }
 
 h1 {
-  font-family: 'Carter One', cursive;
+  font-family: 'Molengo', Georgia, Times, serif;
+  font-size: 56px;
+  line-height: 80px;
   color: #5579b3;
+}
+
+p, a {
+ font-family: 'Lekton', Helvetica, Arial, sans-serif;
+ font-size: 16px;
+ line-height: 25px;
 }
 
 .display-1 {
@@ -81,7 +113,7 @@ footer {
   flex-direction: column;
   background-color: #171b23;
   color: white;
-  border-top: 3px solid #5579b3;
+  border-top: 1px solid #4685f7;
 }
 
 /* responsive typography  */
