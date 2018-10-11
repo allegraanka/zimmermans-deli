@@ -8,7 +8,7 @@ html {
 
 nav.navbar {
   position: absolute;
-  top: 20px;
+  top: 2em;
   display: block;
 }
 
@@ -22,7 +22,7 @@ ul li {
 
 .tag-line {
   position: absolute;
-  bottom: 35px;
+  bottom: 5em;
 }
 
 section {
@@ -76,16 +76,24 @@ section.info {
   background-blend-mode: overlay;
 }
 
+section.order-page {
+  width: 100vw;
+  height: 100vh;
+  background: #e5e5e5 url("../images/blackflag-pickles.jpg") no-repeat center fixed;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
 h1 {
   font-family: 'Molengo', Georgia, Times, serif;
-  font-size: 56px;
+  font-size: 3em;
   line-height: 80px;
   color: #4685f7;
 }
 
 p, a {
  font-family: 'Lekton', Helvetica, Arial, sans-serif;
- font-size: 16px;
+ font-size: 1.4em;
  line-height: 25px;
 }
 
@@ -111,6 +119,7 @@ p, a {
 footer {
   width: 100vw;
   height: 50vh;
+  columns: 2 auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -120,3 +129,45 @@ footer {
 }
 
 /* responsive typography  */
+
+/* media queries for mobile / tablet */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.4em;
+    line-height: 30px;
+  }
+  p, a {
+    font-size: 1em;
+    line-height: 18px;
+  }
+  section.logo {
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    background: url("../images/logo.jpg") no-repeat;
+    background-size: contain;
+    border-bottom: 1px solid #4685f7;
+    color: #4685f7;
+  }
+  .tag-line {
+    width: 65%;
+    position: absolute;
+    bottom: 8em;
+  }
+  section.factoid {
+    width: 100vw;
+    height: 100vh;
+    border-bottom: 1px solid #4685f7;
+  }
+  section.about {
+    width: 100vw;
+    height: 100vh;
+    background: #e5e5e5 url("../images/dan-kelly.jpg") no-repeat center fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: white;
+  }
+  .about-div {
+    margin: 15%;
+  }
+}
