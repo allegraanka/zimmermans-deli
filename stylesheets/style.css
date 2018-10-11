@@ -28,7 +28,7 @@ ul li {
 section {
   display: flex;
   /* align-items: center; */
-  justify-content: center;
+  /* justify-content: center; */
   flex-direction: column;
 }
 
@@ -36,6 +36,7 @@ section.logo {
   width: 100vw;
   height: 100vh;
   align-items: center;
+  justify-content: center;
   background: url("../images/logo.jpg") no-repeat center;
   background-size: cover;
   border-bottom: 1px solid #4685f7;
@@ -48,12 +49,14 @@ section.main {
   background: url("../images/sliced-meatloaf.jpg") no-repeat center fixed;
   background-size: cover;
   border-bottom: 1px solid #4685f7;
+  opacity: 0.8;
 }
 
 section.factoid {
   width: 100vw;
   height: 75vh;
   align-items: center;
+  justify-content: center;
   /* background-color: #171b23; */
   border-bottom: 1px solid #4685f7;
 }
@@ -70,18 +73,33 @@ section.about {
 section.info {
   width: 100vw;
   height: 100vh;
+  justify-content: center;
   border-top: 1px solid #4685f7;
   background: #e5e5e5 url("../images/slice-sandwich.jpg") no-repeat center fixed;
   background-size: cover;
-  background-blend-mode: overlay;
+  /* background-blend-mode: overlay; */
+  opacity: 0.8;
 }
 
 section.order-page {
   width: 100vw;
   height: 100vh;
+  align-items: center;
+  justify-content: center;
   background: #e5e5e5 url("../images/blackflag-pickles.jpg") no-repeat center fixed;
   background-size: cover;
   background-blend-mode: overlay;
+}
+
+.roast-description-div {
+  max-width: 90%;
+}
+
+section.order-steps {
+  width: 100vw;
+  height: 50vh;
+  align-items: center;
+  overflow-y: scroll;
 }
 
 h1 {
@@ -97,13 +115,18 @@ p, a {
  line-height: 25px;
 }
 
+.thick-underline {
+  border-bottom: 3px solid #4685f7;
+}
+
 .display-1 {
   color: white;
   opacity: 0.8;
 }
 
 .lead {
-  color: white;
+  font-weight: 600;
+  color: #4685f7;
   text-transform: uppercase;
 }
 
