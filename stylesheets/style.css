@@ -116,10 +116,21 @@ p, a {
   /* opacity: 0.8; */
 }
 
+.roast-description-div {
+  max-width: 90%;
+  margin: 2%;
+  padding: 1.4%;
+}
+
+.order-steps {
+  max-width: 90%;
+  margin: 2%;
+  padding: 1.4%;
+}
+
 footer {
   width: 100vw;
   height: 50vh;
-  columns: 2 auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
