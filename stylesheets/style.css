@@ -211,7 +211,7 @@ footer {
   }
   section.about {
     width: 100vw;
-    height: 75vh;
+    height: 85vh;
     background: #171b23 url("../images/dan-kelly.jpg") no-repeat center;
     background-size: contain;
     background-blend-mode: soft-light;
