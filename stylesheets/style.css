@@ -147,7 +147,7 @@ p, a {
 }
 
 .roast-description-div {
-  max-width: 90%;
+  max-width: 50%;
   margin: 2%;
   padding: 1.4%;
 }
@@ -241,6 +241,11 @@ footer {
     height: 75vh;
     align-items: center;
     overflow-y: auto;
+  }
+  .roast-description-div {
+    max-width: 90%;
+    margin: 2%;
+    padding: 1.4%;
   }
   .about-div {
     margin: 15%;
