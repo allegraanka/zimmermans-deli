@@ -138,6 +138,7 @@ p, a {
 
 .about-div {
   margin: 5%;
+  max-width: 50%;
 }
 
 .about-header {
