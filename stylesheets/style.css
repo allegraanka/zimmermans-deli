@@ -195,6 +195,15 @@ footer {
     position: absolute;
     bottom: 8em;
   }
+  section.main {
+    width: 100vw;
+    height: 100vh;
+    background: url("../images/sliced-meatloaf.jpg") no-repeat center;
+    background-size: cover;
+    border-bottom: 1px solid #4685f7;
+    justify-content: center;
+    opacity: 0.8;
+  }
   section.factoid {
     width: 100vw;
     height: 100vh;
@@ -203,12 +212,40 @@ footer {
   section.about {
     width: 100vw;
     height: 100vh;
-    background: #e5e5e5 url("../images/dan-kelly.jpg") no-repeat center fixed;
+    background: #e5e5e5 url("../images/dan-kelly.jpg") no-repeat center;
     background-size: cover;
     background-blend-mode: multiply;
     color: white;
   }
+  section.info {
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    border-top: 1px solid #4685f7;
+    background: #e5e5e5 url("../images/slice-sandwich.jpg") no-repeat center;
+    background-size: cover;
+    /* background-blend-mode: overlay; */
+    opacity: 0.8;
+  }
+  section.order-page {
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: #e5e5e5 url("../images/blackflag-pickles.jpg") no-repeat center;
+    background-size: cover;
+    background-blend-mode: overlay;
+  }
+  section.order-steps {
+    width: 100vw;
+    height: 75vh;
+    align-items: center;
+    overflow-y: auto;
+  }
   .about-div {
     margin: 15%;
+  }
+  .display-1 {
+    font-size: 2.4em;
   }
 }
