@@ -97,6 +97,10 @@ section.order-page {
   background-blend-mode: overlay;
 }
 
+.order-column {
+  width: 50%;
+}
+
 .roast-description-div {
   max-width: 90%;
 }
@@ -105,7 +109,6 @@ section.order-steps {
   width: 100vw;
   height: 50vh;
   align-items: center;
-  overflow-y: scroll;
 }
 
 h1 {
@@ -153,9 +156,9 @@ p, a {
 }
 
 .order-steps {
-  max-width: 90%;
-  margin: 2%;
-  padding: 1.4%;
+  padding: 2%;
+  align-items: center;
+  justify-content: center;
 }
 
 footer {
@@ -239,9 +242,13 @@ footer {
   }
   section.order-steps {
     width: 100vw;
-    height: 75vh;
+    height: 50vh;
     align-items: center;
-    overflow-y: auto;
+    justify-content: center;
+    background-color: #F9F9F9;
+  }
+  .order-column {
+    width: 100%;
   }
   .roast-description-div {
     max-width: 90%;
@@ -254,9 +261,6 @@ footer {
   }
   .display-1 {
     font-size: 2.4em;
-  }
-  .order-column {
-    width: 100%;
   }
   .grab-a-roast {
     max-width: 90%;
