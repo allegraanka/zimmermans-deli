@@ -141,7 +141,7 @@ p, a {
 
 .about-div {
   margin: 5%;
-  max-width: 50%;
+  width: 50%;
 }
 
 .about-header {
@@ -214,7 +214,7 @@ footer {
   }
   section.about {
     width: 100vw;
-    height: 75vh;
+    height: 50vh;
     background: #171b23 url("../images/dan-kelly.jpg") no-repeat center;
     background-size: contain;
     background-blend-mode: soft-light;
@@ -258,6 +258,7 @@ footer {
   .about-div {
     margin: 5%;
     padding: 1%;
+    width: 90%;
   }
   .display-1 {
     font-size: 2.4em;
