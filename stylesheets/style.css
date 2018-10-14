@@ -215,9 +215,9 @@ footer {
   section.about {
     width: 100vw;
     height: 75vh;
-    background: #171b23 url("../images/dan-kelly.jpg") no-repeat center;
+    background: #171b23 url("../images/dan-kelly.jpg") no-repeat bottom;
     background-size: contain;
-    background-blend-mode: soft-light;
+    background-blend-mode: screen;
     font-weight: 600;
     color: white;
   }
