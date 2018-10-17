@@ -20,6 +20,26 @@ ul li {
   display: inline;
 }
 
+.flexContainer {
+    display: flex;
+}
+.flexItem {
+    flex: 1;
+}
+.nav a {
+    text-decoration: none;
+    display: block;
+    padding: 0 1em;
+}
+
+a.current:link {
+  text-decoration: underline;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
 .tag-line {
   position: absolute;
   bottom: 5em;
@@ -70,9 +90,12 @@ section.factoid {
 section.about {
   width: 100vw;
   height: 100vh;
-  background: #e5e5e5 url("../images/dan-kelly.jpg") no-repeat center fixed;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  background: #9ba1aa url("../images/dan-kelly.jpg") no-repeat center fixed;
   background-size: cover;
-  background-blend-mode: multiply;
+  background-blend-mode: overlay;
   color: white;
 }
 
@@ -92,13 +115,13 @@ section.order-page {
   height: 100vh;
   align-items: center;
   justify-content: center;
-  background: #e5e5e5 url("../images/blackflag-pickles.jpg") no-repeat center fixed;
+  background: #b8bec6 url("../images/blackflag-pickles.jpg") no-repeat center fixed;
   background-size: cover;
   background-blend-mode: overlay;
 }
 
 .order-column {
-  width: 50%;
+  width: 75%;
 }
 
 .roast-description-div {
@@ -140,19 +163,24 @@ p, a {
 }
 
 .about-div {
-  margin: 5%;
+  margin: 2.5%;
   width: 50%;
+  align-self: flex-start;
 }
 
 .about-header {
   color: white;
-  /* opacity: 0.8; */
 }
 
 .roast-description-div {
-  max-width: 50%;
+  max-width: 80%;
   margin: 2%;
   padding: 1.4%;
+}
+
+.pick-up-info {
+  margin-top: 10%;
+  font-weight: 600;
 }
 
 .order-steps {
@@ -215,9 +243,10 @@ footer {
   section.about {
     width: 100vw;
     height: 75vh;
-    background: #171b23 url("../images/dan-kelly.jpg") no-repeat bottom;
-    background-size: contain;
-    background-blend-mode: screen;
+    justify-content: flex-end;
+    background: #9ba1aa url("../images/dan-kelly.jpg") no-repeat 70% 30%;
+    background-size: cover;
+    background-blend-mode: overlay;
     font-weight: 600;
     color: white;
   }
@@ -248,7 +277,7 @@ footer {
     background-color: #F9F9F9;
   }
   .order-column {
-    width: 100%;
+    width: 75%;
   }
   .roast-description-div {
     max-width: 90%;

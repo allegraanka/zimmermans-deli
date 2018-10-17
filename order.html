@@ -16,25 +16,30 @@
 
   <body>
     <section class="order-page">
-      <nav id="navbar" class="navbar">
-        <ul class="nav justify-content-center">
-          <li class="text-center"><a class="navbar-brand" href="index.html"> << Home </a></li>
+      <nav class="navbar flexContainer" id="navbar">
+        <ul class="nav flexContainer">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="order.html" class="current">Shop</a></li>
+          <!-- <li><a href="#">Contact</a></li> -->
         </ul>
       </nav>
 
       <div class="roast-description-div">
-        <h1>Zimmerman's Deli Holiday Roast</h1>
-        <p>Our Holiday Roasts are <strong><span class="thick-underline">100% vegan</span></strong> and made by hand in small batches to create a savory seitan roast that serves 4 - 6 individuals. </p>
-        <p> $20 per Roast </p>
-        <p> Your Holiday Roast(s) will be available for pick-up the week of Thanksgiving! </p>
-        <p> Dates & Locations TBA </p>
-        <p class="lead">Order Now <a href="#linkToOrderSteps"><img src="images/down-arrow.png" style="width: 35px;"></a></p>
+        <h1>Zimmerman's Deli Holiday Roast | <span><small>$20 per roast</small></span></h1>
+        <p style="width:90%;">Our roasts are <strong><span class="thick-underline">100% vegan</span></strong> and made by hand in small batches to create a savory seitan roast that serves 4-6 individuals.</p>
+        <div class="pick-up-info">
+          <p class="text-center">Your order will be available for pick-up the week of Thanksgiving!</p>
+          <p class="text-center">Dates & Locations TBA</p>
+          <p class="text-center lead"><span class="uppercase">Order Now</span> <a href="#linkToOrderSteps"><img src="images/down-arrow.png" style="width: 35px;"></a></p>
+        </div>
       </div>
     </section>
 
     <a name="linkToOrderSteps"></a>
     <section class="order-steps">
       <div class="order-column">
+        <h3><span class="thick-underline">To place an order:</span></h3>
         <p><a href="mailto:zimmermansdeli@gmail.com">Email us</a> at zimmermansdeli@gmail.com with your name, number, email, home address (used only if there's an issue with pick-up) & how many roasts you'd like.</p>
         <p>Please include any special concerns in your email.</p>
         <p> <br > Send payment to Venmo <a href="https://venmo.com/Zimmermans-Deli" target="_blank">@zimmermans-deli</a> or PayPal zimmermansdeli@gmail.com </p>
