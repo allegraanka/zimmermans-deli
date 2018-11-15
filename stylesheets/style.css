@@ -133,8 +133,8 @@ section.pickup-info {
   height: 75vh;
   align-items: center;
   justify-content: center;
-  background-color: #171b23;
-  color: white;
+  /* background-color: #171b23;
+  color: white; */
 }
 
 section.order-steps {
