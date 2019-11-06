@@ -28,14 +28,14 @@
       </div>
       <div id="paypal-button"></div>
     </div>
-
+    <script src="javascripts/scripts.js"></script>
     <script src="https://www.paypalobjects.com/api/checkout.js"></script>
     <script>
       paypal.Button.render({
         // Configure environment
         env: 'production',
         client: {
-          production: 'LIVE_CLIENT_ID'
+          production: no
         },
         // Customize button (optional)
         locale: 'en_US',
